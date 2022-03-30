@@ -3,7 +3,7 @@ body{font-family: 'Raleway', sans-serif;
      font-size: 1em;
      text-align: center;
 }
-     /* HEADER */
+    
      header{
      background-color: rgb(16, 158, 184);
      padding: 10px;
@@ -84,25 +84,8 @@ section div dl dt{
 section div dl dd{
     text-align: justify;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 strong{
-    color:rgb(40, 182, 182);
+       color:rgb(40, 182, 182);
 }
 div mark{
     background-color: blue;
@@ -114,7 +97,6 @@ div li{
     text-align: left;
     font-size: 15px;
 }
-
 p a{
     color: rgb(217, 10, 245);
 }
@@ -146,10 +128,3 @@ footer p{
 footer p small{
     color: rgb(235, 226, 226);
 }
-
-
-        
-        
-/* ELEMENTI NEL MAIN */
-
-/* FOOTER */
