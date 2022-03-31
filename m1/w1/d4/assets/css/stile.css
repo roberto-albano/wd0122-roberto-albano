@@ -1,0 +1,151 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: poppins;
+    background-image: url(/assets/img/sfondo.png);
+    position:relative;
+    left: 50px;
+}
+    /* HEADER */
+header div{
+    
+    width: 100%;
+    background-color: cadetblue;
+    border: 100px solid cadetblue;
+    position: relative;
+    margin: 20px auto 0px auto;
+    right: 150px;
+}
+    
+header div #logo{
+    position: relative;
+    top: -20px;
+    bottom: 50px;
+    left: 120px;
+    }
+
+header div p{
+   position:relative;
+   font-size: 22px; 
+   color: whitesmoke;
+   left: 100px;
+}
+header nav li{
+    position: relative;
+    left: 15px;
+    bottom: 80px;
+    list-style-type: none;
+    text-align: center;
+    color:whitesmoke;
+}    
+header li::before{
+    content: "\21DA";
+}
+header li::after{
+    content: "\21DA";
+}
+
+header a {
+    line-height: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* MAIN */
+main{
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main article h1{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px
+
+}
+main article p span::before{
+    content: "\f4fd";
+}
+main article p{
+    text-transform: uppercase;
+}
+main li{
+    text-align: left;
+    margin: 20px;
+}
+main li code{
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+main p{ 
+    padding: 5px;
+    color: rgb(180, 180, 180);
+}
+/* TABELLE */
+table caption{
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+thead{
+    background-color: rgb(171, 117, 221);
+    color: antiquewhite;
+}
+th{
+    padding: 3%;
+    text-align:center;
+}
+td{
+    padding: 1%;
+    text-align:center;
+}
+/* FORM */
+iframe{
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+}
+section h2{
+    text-align: center;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+aside div{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 60px;
+    padding-left: -10px;
+}
+form{
+    background-color: grey;
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+
+
+
+/* FOOTER */
+footer{
+    margin-left: 15px;
+    background-color: rgba(0, 81, 83, 0.521);
+    }
+footer p{
+    color:antiquewhite;
+    text-align: center;
+    line-height: 300%;
+}
+address{
+    color:antiquewhite;
+}
+address a{
+    color: rgb(255, 0, 242);
+}
