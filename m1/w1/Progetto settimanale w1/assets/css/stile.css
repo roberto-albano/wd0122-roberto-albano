@@ -99,9 +99,16 @@ article p{
 /* aside */
 aside{
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+aside img h4{
+    border: 1px solid grey;
 }
 aside img{
-    width: 70%;
+    border: 1px solid grey;
+    width: 100%;
     margin: 10px;
     overflow: hidden; 
 }
