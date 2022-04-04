@@ -1,0 +1,31 @@
+@media screen and (min-width: 481px) {
+body{
+    display: block;
+}
+    .tabella{
+    padding-left: 25%;
+    padding-right: 25%;
+
+    
+}}
+@media screen and (min-width: 768px) {
+body{
+    display: block;
+}}
+
+@media screen and (min-width: 1024px) {
+body{
+    display:block;}
+    article{
+        padding-left: 30%;
+        padding-right: 30%;
+    }}
+@media print{
+header, iframe, form, section,aside{
+        display: none;
+    }
+.test{
+    display: none;
+}
+}
+
