@@ -24,6 +24,7 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
+    z-index: 1;
 }
 header div img {
     margin-bottom: 20px;
