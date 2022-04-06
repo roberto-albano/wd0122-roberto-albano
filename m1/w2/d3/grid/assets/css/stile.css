@@ -118,7 +118,7 @@ main {
     padding: 2em 1em;
     margin-bottom:1.5em ;
     display: grid;
-    grid-template-areas: "sidebar";
+    grid-template-columns: 2fr 1fr 1fr;
 }
 
 @media screen and (min-width:700px) {
@@ -288,9 +288,6 @@ aside div p:last-child {
 }
 
 
-main{
-    grid-template-columns: 2fr 1fr;
-}
 
 
 
