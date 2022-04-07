@@ -41,7 +41,7 @@ p{
 
 
 span i{
-    position: relative;
+     
     display: inline;
     margin-left: 10px;
     animation-iteration-count: infinite;
@@ -49,53 +49,35 @@ span i{
     color: darkcyan;
 }
 
+i{
+    position: absolute;
+}
+
 i:nth-of-type(1){
-    position: relative;
-    animation-name: parola1;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    animation-name: parola;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     
 }
 i:nth-of-type(2){
-    position: relative;
-    animation-name: parola2;
+    animation-name: parola;
     animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 2s;
 }
 
 i:nth-of-type(3){
     position: relative;
-    animation-name: parola3;
+    animation-name: parola;
     animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 4s;
 }
-@keyframes parola1{
-    0% {opacity: 1; display: block; top: -10px}
-    10% {opacity: 1; display: block; top: 0px;} 
-    25% {opacity: 0; display: none;} 
-    50% {opacity: 0; display: none;} 
-    70% {opacity: 0; display: none;}
-    100% {opacity: 0; display: none;}
-}
-@keyframes parola2{
-    0% {opacity: 0; display: none;}
-    10% {opacity: 0; display: none;} 
-    25% {opacity: 1; display: block; top: -10px;} 
-    50% {opacity: 1; display: none; top: 0;}
-    70% {opacity: 0; display: none;}
-    100% {opacity: 0; display: none;}
-}
-@keyframes parola3{
-    0% {opacity: 0; display: none;}
-    10% {opacity: 0; display: none;} 
-    25% {opacity: 0; display: none;} 
-    50% {opacity: 0; display: none;} 
-    70% {opacity: 1; display: block; top: -10px;}
-    100% {opacity: 1; display: block; top: 0;}
-}
+@keyframes parola{
+    0% {opacity: 0; transform: translateY(-20px);}
+    5%,20% {opacity: 1; transform: translateY(0px);} 
+    25%,100% {opacity: 0; transform: translateY(-20px);} 
+    
+} 
