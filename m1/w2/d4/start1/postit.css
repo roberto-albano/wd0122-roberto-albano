@@ -1,0 +1,73 @@
+#lavagna{
+    height:300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(73, 73, 73);
+    padding: 10px;
+    }
+#lavagna div.post1{
+    background-color: rgb(208, 211, 13);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-1deg);
+}
+div p{
+    font-style:italic;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#lavagna div.post2{
+    background-color: rgb(15, 175, 10);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+}
+#lavagna div.post3{
+    background-color: rgb(89, 13, 211);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transition: 1s;
+}
+#lavagna div.post3:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#lavagna div.post4{
+    background-color: rgb(46, 211, 13);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+}
+#lavagna div.post5{
+    background-color: rgb(208, 211, 13);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-1deg);
+}
+#lavagna div.post6{
+    background-color: rgb(167, 10, 182);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-1deg);
+}
+#lavagna div.post7{
+    background-color: rgb(208, 211, 13);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-1deg);
+}
+#lavagna div.post8{
+    background-color: rgb(97, 190, 10);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(2deg);
+}

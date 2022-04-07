@@ -1,0 +1,101 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+    
+}
+p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#testoAlternato{
+    position: relative;
+    display: block;
+    border: 2px solid black;
+    padding: 2rem 12rem 2rem 2rem;
+}
+
+
+span i{
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    color: darkcyan;
+}
+
+.text-animated-one{
+    position: relative;
+    animation-name: parola1;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+.text-animated-two{
+    position: relative;
+    animation-name: parola2;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.text-animated-three{
+    position: relative;
+    animation-name: parola3;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes parola1{
+    0% {opacity: 1; display: block; top: -10px}
+    10% {opacity: 1; display: block; top: 0px;} 
+    25% {opacity: 0; display: none;} 
+    50% {opacity: 0; display: none;} 
+    70% {opacity: 0; display: none;}
+    100% {opacity: 0; display: none;}
+}
+@keyframes parola2{
+    0% {opacity: 0; display: none;}
+    10% {opacity: 0; display: none;} 
+    25% {opacity: 1; display: block; top: -10px;} 
+    50% {opacity: 1; display: none; top: 0;}
+    70% {opacity: 0; display: none;}
+    100% {opacity: 0; display: none;}
+}
+@keyframes parola3{
+    0% {opacity: 0; display: none;}
+    10% {opacity: 0; display: none;} 
+    25% {opacity: 0; display: none;} 
+    50% {opacity: 0; display: none;} 
+    70% {opacity: 1; display: block; top: -10px;}
+    100% {opacity: 1; display: block; top: 0;}
+}
