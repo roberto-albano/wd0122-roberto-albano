@@ -75,9 +75,9 @@ console.log(2 + 2);
 console.log(2 + true);
 
 
-console.log('hello ' + 'everyone');
+console.log('ciccio ' + 'bello');
 
 
 console.log(2001 + ': A Space Odyssey');
 
-//Qui sopra esempi d'operazioni aritmetiche di addizione
+//Qui sopra esempi d'operazioni aritmetiche di addizione e boolean
