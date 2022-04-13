@@ -1,0 +1,10 @@
+*{
+    text-align: center;
+    background-color:gainsboro;
+    padding-top: 10vh;
+}
+
+h1{
+    font-size: 10vh;
+    font-weight: bold;
+}
