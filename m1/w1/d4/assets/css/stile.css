@@ -1,11 +1,19 @@
 /* IMPOSTAZIONI GENERALI */
 body{
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
     font-family: poppins;
-    background-image: url(/assets/img/sfondo.png);
-    position:relative;
-    left: 50px;
+    background-image: url(assets/img/sfondo.png);
 }
-    /* HEADER */
+section{
+    height: 844px;
+    width: 390;
+    border: 1px solid #ccc;
+} 
+
+
+/* HEADER */
 header div{
     
     width: 100%;

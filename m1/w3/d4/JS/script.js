@@ -53,9 +53,3 @@ frutti4.unshift("Limone" , "Ananas");
 console.log(frutti4);
 
 //Funzione//
-
-function calcArr(){
-    let arrayNum = [16, 25, 86];
-    arrayNum.push(77)
-    return arrayNum.length;
-}

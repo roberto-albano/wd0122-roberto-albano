@@ -7,8 +7,6 @@ function logSomething(){
 }
 console.log(something)
 
-// --> "Prova global scope"
-
 //struttura let//
 let greeting = "say Hi";
     if (true) {
