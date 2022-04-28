@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    margin-top: 1%;
+    background-color: gainsboro;
+}
+
+#image{
+border-radius: 5%;
+}
+
+
+#playBtn{
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    min-height: 30px; 
+    min-width: 120px;
+}
+
+#stopBtn{
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    min-height: 30px; 
+    min-width: 120px;
+}
+
+
+#playBtn:hover {
+    background-color:#002ead;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#stopBtn:hover{
+    background-color:#002ead;
+    transition: 0.5s;
+    cursor: pointer;
+}
