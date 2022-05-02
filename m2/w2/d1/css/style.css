@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.row > div{
+    color: blanchedalmond;
+    background-color: blue;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+.row2 > div{
+    color: black;
+    background-color: yellow;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+.row3 > div{
+    color: white;
+    background-color: green;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+.row4 > div{
+    color: white;
+    background-color: red;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+.row6 > div{
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 3px;
+}
