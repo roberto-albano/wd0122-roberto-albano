@@ -1,0 +1,100 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import 'media.scss';
+
+#header{
+    width: 100%;
+    display: inline-block;
+}
+
+#main-menu{
+overflow: hidden;
+background-color: rgb(22, 10, 102);
+border-radius: 10px;
+box-shadow: 1px 1px 3px red;
+top: 0;
+width: 100%;
+}
+
+ul{
+    text-align: start;
+    list-style-type: none;
+    margin: 0%;
+    padding: 15px;
+li{
+    display: inline;
+    font-size: 17px;
+a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    &:hover{
+        background-color: #111;
+    }
+  @include media(phone-only){
+      font-size: 1rem;
+      display: inline;
+      width: 100%;
+
+  }
+} 
+
+   }
+}
+
+#content{
+    margin: 10px 90px auto;
+    width: 60%;
+    @include media(phone-only){    
+        margin: 10px 10px auto;
+        width: 100%;
+    }
+}    
+        
+.warning-button{
+    background-color: orange;
+    width: 70px;
+    height: 40px;
+    color: white;
+    box-shadow: 1px 2px 5px black;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-style:italic;
+}
+
+#sidebar{
+height: 100%;
+width: 150px;
+position: absolute;
+left: 80%;
+top: 0;
+padding-top: 80px;
+@include media(phone-only){    
+position: absolute;
+left: 50%;
+overflow: hidden;
+}
+
+ul{
+    line-height: 2;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+li{
+border-bottom: 1px dashed;
+}
+}
+
+#footer{
+    background-color: #111;
+  
+}
+

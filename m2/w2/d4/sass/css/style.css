@@ -1,0 +1,79 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+#header {
+  width: 100%;
+  display: inline-block; }
+
+#main-menu {
+  overflow: hidden;
+  background-color: #160a66;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px red;
+  top: 0;
+  width: 100%; }
+
+ul {
+  text-align: start;
+  list-style-type: none;
+  margin: 0%;
+  padding: 15px; }
+  ul li {
+    display: inline;
+    font-size: 17px; }
+    ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+      ul li a:hover {
+        background-color: #111; }
+      @media (max-width: 599px) {
+        ul li a {
+          font-size: 1rem;
+          display: inline;
+          width: 100%; } }
+
+#content {
+  margin: 10px 90px auto;
+  width: 60%; }
+  @media (max-width: 599px) {
+    #content {
+      margin: 10px 10px auto;
+      width: 100%; } }
+
+.warning-button {
+  background-color: orange;
+  width: 70px;
+  height: 40px;
+  color: white;
+  box-shadow: 1px 2px 5px black;
+  border: none; }
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  font-style: italic; }
+
+#sidebar {
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  left: 80%;
+  top: 0;
+  padding-top: 80px; }
+  @media (max-width: 599px) {
+    #sidebar {
+      position: absolute;
+      left: 50%;
+      overflow: hidden; } }
+  #sidebar ul {
+    line-height: 2;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  #sidebar li {
+    border-bottom: 1px dashed; }
+
+#footer {
+  background-color: #111; }
