@@ -3,7 +3,7 @@ let http = require('http');
 var server = http.createServer((req,res) => {
 
 res.writeHead(200,{'Content-type':'text/plain'})
-res.end('Ciao Roberto, questo è un mondo strano!')
+res.end('Ciao Roberto, this is a strange world!')
 
 })
 
