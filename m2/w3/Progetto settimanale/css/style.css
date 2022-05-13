@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-neon: hsl(317 100% 54%);
+  }
+
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #050801;
+}
+.container{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+#result{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 3;
+    color: gainsboro;
+    animation: tracking-in-expand-fwd 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+
+
+#button1{
+    position: relative;
+    display: inline-block;
+    background-color: gainsboro;
+	cursor: pointer;
+    padding: 25px 30px;
+	margin: 0 20px;
+	color: var(--clr-neon);
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.5s;
+	letter-spacing: 4px;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+
+}
+
+#button1:hover
+{
+	background: var(--clr-neon);
+	color: #050801;
+	box-shadow: 0 0 5px var(--clr-neon),
+				0 0 25px var(--clr-neon),
+				0 0 50px var(--clr-neon),
+				0 0 200px var(--clr-neon);
+}
+
+#button2{ 
+    position: relative;
+	display: inline-block;
+	background-color: gainsboro;
+    padding: 25px 30px;
+	margin: 0 20px;
+	cursor: pointer;
+    color: #349fa5;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.5s;
+	letter-spacing: 4px;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+#button2:hover
+{
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+				0 0 25px #03e9f4,
+				0 0 50px #03e9f4,
+				0 0 200px #03e9f4;
+}
+
