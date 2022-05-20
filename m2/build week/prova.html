@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>BUILD WEEK</h1>
+
+    <form>
+        <input id="username" type="text" placeholder="Username">
+        <input id="name" type="text" placeholder="Name">
+        <input id="email" type="text" placeholder="Email">
+
+        <button class="btn btn-success">Aggiungi</button>
+    </form>
+
+    <form id="formsalva">
+        <input id="username1" type="text" placeholder="Username">
+        <input id="name1" type="text" placeholder="Name">
+        <input id="email1" type="text" placeholder="Email">
+
+        <button class="btn btn-warning">Salva</button>
+    </form>
+
+
+    <table class="container row table table-dark table-striped table-hover">
+
+        <div class="col-8">
+
+            <thead>
+                <tr class="row">
+                    <th class="col-1">Id</th>
+                    <th class="col-2">Name</th>
+                    <th class="col-2">Username</th>
+                    <th class="col-2">Email</th>
+                    <th class="col-3"></th>
+                </tr>
+            </thead>
+
+            <tbody id="utenti">
+
+            </tbody>
+
+        </div>
+
+
+
+    </table>
+    <div class="col-4" id="Form"></div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script/prova.js"></script>
+
+</body>
+
+</html>

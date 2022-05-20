@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-secondary ">
+
+    <h1 class="text-center pt-5">BUILD WEEK</h1>
+
+    <form id="formaggiungi" class="text-center p-5">
+
+        <h2 class="text-dark p-3">Crea nuovo utente</h2>
+
+        <input id="username" type="text" placeholder="Username" required pattern="[a-zA-Z0-9]+">
+        <input id="name" type="text" placeholder="Name" required pattern="[a-zA-Z ]+">
+        <input id="email" type="text" placeholder="Email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,3}">
+
+        <button class="btn btn-success" type="submit">Aggiungi</button>
+
+    </form>
+
+    <form id="formsalva" class="text-center p-5">
+
+        <h2>Modifica utente</h2>
+
+        <input id="username1" type="text" placeholder="Username" required pattern="[a-zA-Z0-9]+">
+        <input id="name1" type="text" placeholder="Name" required pattern="[a-zA-Z ]+">
+        <input id="email1" type="text" placeholder="Email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,3}">
+
+        <button id="salva" class="btn btn-warning" type="submit">Salva</button>
+
+    </form>
+
+    <!-- //*barra serch*// -->
+    <h2 class="text-center pt-3">Cerca utente</h2>
+    <div class="search-wrapper">
+        <label for="search"></label>
+        <div class="input">
+            </i><input type="search" id="search" class="form-control" placeholder=" Ricerca " data-search>
+            <i class="bi bi-search"></i>
+        </div>
+    </div>
+    <div class="user-cards text-center" data-user-cards-container></div>
+    <template data-user-template>
+        <div id="card" class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </template>
+
+    <table class="container row table table-dark table-striped table-hover mx-auto w-auto table-responsive">
+
+        <div class="col-8">
+
+            <thead>
+                <tr class="row">
+                    <th class="col-1">Id</th>
+                    <th class="col-2">Username</th>
+                    <th class="col-3">Name</th>
+                    <th class="col-3">Email</th>
+                    <th class="col-3"></th>
+                </tr>
+            </thead>
+
+            <tbody id="utenti"></tbody>
+
+        </div>
+
+    </table>
+
+    <!-- <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li id="primo" class="page-item"><a class="page-link" href="#">1</a></li>
+            <li id="ultimo" class="page-item"><a class="page-link" href="#">2</a></li>
+        </ul>
+    </nav> -->
+
+    <div class="col-4 mx-auto" id="Form"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="script/paginazione.js"></script> -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

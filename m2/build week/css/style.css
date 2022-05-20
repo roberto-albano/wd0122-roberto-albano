@@ -1,0 +1,42 @@
+
+body{
+    background: rgb(237,255,237);
+    background: radial-gradient(circle, rgba(237,255,237,1) 0%, rgba(5,96,204,1) 100%);
+}
+
+.hide{
+    display: none;
+}
+#search{
+    width: 90%;
+    color: red;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 50px;
+
+}
+.input{
+    position: relative;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+i {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    bottom: 10px;
+    left: 35px;
+  
+}
+#card {
+    margin: 0 auto; 
+    margin-top: 5px;
+    float: none; 
+    margin-bottom: 10px; 
+    width: 15%;
+    border-color: aqua;
+}
