@@ -1,0 +1,10 @@
+<h1> Benvenuto {{nome}} </h1>
+
+<button (click)="cambia('n')">Clicca qui</button>
+
+<ul>
+  <li *ngFor="let n of nomi">
+    {{n}}
+    <button (click)="cambia(n)">Clicca qui</button>
+  </li>  
+</ul>
